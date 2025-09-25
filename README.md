@@ -54,14 +54,6 @@ This project follows modern Spring Boot best practices:
 - PostgreSQL 12+
 - Maven 3.6+
 
-### Environment Variables
-```bash
-DB_URL=jdbc:postgresql://localhost:5432/spotify
-DB_USERNAME=postgres
-DB_PASSWORD=your_password
-JWT_SECRET=your_jwt_secret
-```
-
 ### Installation
 1. Clone repository
 2. Create PostgreSQL database named `spotify`
@@ -114,13 +106,4 @@ Entity relationships:
 - Album → Song (One-to-Many)
 - Playlist ↔ Song (Many-to-Many)
 
-## Configuration
 
-```properties
-# application.properties
-spring.datasource.url=${DB_URL}
-spring.datasource.username=${DB_USERNAME}
-spring.datasource.password=${DB_PASSWORD}
-spring.jpa.hibernate.ddl-auto=update
-jwt.secret=${JWT_SECRET}
-```
