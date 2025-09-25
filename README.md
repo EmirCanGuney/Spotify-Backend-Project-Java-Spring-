@@ -86,7 +86,7 @@ Application starts on `http://localhost:8080`
 - `DELETE /api/users/{id}` - Delete user (Admin only)
 
 ## Security
-
+<img width="1702" height="851" alt="Ekran görüntüsü 2025-09-25 151426" src="https://github.com/user-attachments/assets/f4e90976-a389-4199-9cf5-2f3c3a225452" />
 JWT-based authentication with two roles:
 - **USER**: Manage own playlists, view music
 - **ADMIN**: Full system access
@@ -105,5 +105,8 @@ Entity relationships:
 - Artist → Album (One-to-Many)
 - Album → Song (One-to-Many)
 - Playlist ↔ Song (Many-to-Many)
+- 
+<img width="361" height="328" alt="Ekran görüntüsü 2025-09-25 151516" src="https://github.com/user-attachments/assets/3ef7491c-77f9-47e5-aa98-bca517af8216" />
+
 
 
